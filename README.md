@@ -9,7 +9,7 @@ An implementation of **Generative AI** using **Diffusion Models** to create appl
 From pure noise to a recognizable apple. Here is the output of the model:
 
 <p align="center">
-  <img src="results/output_apple.png" width="250" alt="Generated Apple Output">
+  <img src="results/epoch_4300.png" width="250" alt="Generated Apple Output">
   <br>
   <i>"Purely AI-generated after 4,700+ Epochs."</i>
 </p>
