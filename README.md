@@ -29,10 +29,10 @@ The best part? **You don't need to spend days training the model.** I have inclu
 git clone [https://github.com/username/apple_diffusion_generator.git](https://github.com/username/apple_diffusion_generator.git)
 cd apple_diffusion_generator
 pip install -r requirements.txt
-2. Run the Generator
+###2. Run the Generator
 Simply run the main script. It will automatically load the model and produce a new image:
     python main.py
-3. Manual Loading (Complete Python Code)
+###3. Manual Loading (Complete Python Code)
 If you want to integrate this model into your own project, use this script to load and generate images in one go:
 
 import tensorflow as tf
@@ -54,7 +54,7 @@ plt.axis('off')
 plt.show()
 
 
-🛠️ Model Architecture
+###🛠️ Model Architecture
 This project features a custom U-Net Architecture optimized for 32 \times 32 pixel generation:
 Residual Blocks: Enhances gradient flow for deep feature learning.
 Sinusoidal Time Embeddings: Helps the model track the noise level at each step.
@@ -69,5 +69,5 @@ Linear Noise Schedule: 200 timesteps for high-fidelity reconstruction.
 ├── data/                      # Sample dataset used for training
 └── results/                   # Gallery of AI-generated apples
 
-👤 Author
+###👤 Author
 Developed with passion by Varo
