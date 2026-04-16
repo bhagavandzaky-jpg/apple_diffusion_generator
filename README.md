@@ -54,11 +54,15 @@ plt.axis('off')
 plt.show()
 
 
-###🛠️ Model Architecture
+
+
+🛠️ Model Architecture
 This project features a custom U-Net Architecture optimized for 32 \times 32 pixel generation:
 Residual Blocks: Enhances gradient flow for deep feature learning.
 Sinusoidal Time Embeddings: Helps the model track the noise level at each step.
 Linear Noise Schedule: 200 timesteps for high-fidelity reconstruction.
+
+
 📂 Project Structure
 
 .
@@ -69,5 +73,6 @@ Linear Noise Schedule: 200 timesteps for high-fidelity reconstruction.
 ├── data/                      # Sample dataset used for training
 └── results/                   # Gallery of AI-generated apples
 
-###👤 Author
+
+👤 Author
 Developed with passion by Varo
